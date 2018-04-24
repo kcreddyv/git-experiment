@@ -1,0 +1,17 @@
+[
+{
+        "repo" : "git-experiment",
+        "component" : "raw",
+        "directory" : "wpp"
+},
+{
+        "repo" : "git-experiment",
+        "component" : "stdraw",
+        "directory" : "wpp"
+},
+{
+	"repo" : "git-experiment",
+	"component" : "work-flow",
+	"directory" : "wpp"
+}
+]
