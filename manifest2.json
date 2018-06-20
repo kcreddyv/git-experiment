@@ -13,19 +13,6 @@
 					"files": ["testfile_trident_1.txt"]
 				}
 			]
-		},
-		{
-			"git_repo_name": "database",
-			"branch": "master",
-			"src": [{
-					"path": "cdf",
-					"files": ["cdf1.txt"]
-				},
-				{
-					"path": "neptune",
-					"files": ["neptune1.txt"]
-				}
-			]
 		}
 	],
 	"destination": {
