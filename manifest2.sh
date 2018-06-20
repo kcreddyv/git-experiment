@@ -26,7 +26,7 @@ i=$(($componentlength-1))
 for((m=0; m<=i; m++))
 do
 reponame=$(jq -r --arg m "$m" '.component | .['$m'] | .git_repo_name' $manifest_file)
-git clone $version git@github.com:kcreddyv/$reponame.git $reponame
+git clone git@github.com:kcreddyv/$reponame.git $reponame
 sourcelength=$(jq -r --arg m "$m" '.component | .['$m'] | .src | length' $manifest_file)
 k=$(($sourcelength-1))
 for ((n=0; n<=k; n++))
