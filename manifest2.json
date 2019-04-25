@@ -7,29 +7,30 @@
 			"src": [{
 				"source": "sally-work-area",
 				"paths": [{
-					"path": "database/cdf",
-					"files": ["testfile_cdf_1.txt", "testfile_cdf_2.txt"]
-				},
-				{
-					"path": "database/trident",
-					"files": ["testfile_trident_1.txt"]
-				}
-			]
+						"path": "database/cdf",
+						"files": ["testfile_cdf_1.txt", "testfile_cdf_2.txt"]
+					},
+					{
+						"path": "database/trident",
+						"files": ["testfile_trident_1.txt"]
+					}
+				]
+			}]
 		},
 		{
-		 "git_repo_name" : "database",
-		 "src": [{
-			 "source" : "",
-			 "paths" : [{
-				    "path" : "cdf",
-				    "files" : ["*"]
-				},
-					       {
-					       "path" : "trident",
-					       "files" : ["*"]
-					       }
-		]
-		 }]
+			"git_repo_name": "database",
+			"src": [{
+				"source": "",
+				"paths": [{
+						"path": "cdf",
+						"files": ["*"]
+					},
+					{
+						"path": "trident",
+						"files": ["*"]
+					}
+				]
+			}]
 		}
 	],
 	"destination": {
